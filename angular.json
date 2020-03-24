@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "laboratio": {
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/scss/application.scss"
             ],
             "scripts": []
           },
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "laboratio"
+    }
+  },
+  "defaultProject": "laboratio",
+  "cli": {
+    "analytics": "bd1ed09a-8955-4fbc-9caf-084d20736c5c"
+  }
 }

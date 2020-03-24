@@ -1,0 +1,42 @@
+@import "src/scss/variables/colors";
+
+// Sizes
+
+.title {
+  font-size: 28px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+// Fonts
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+// Weights
+
+.bold {
+  font-weight: bold;
+}
+
+
+//Colors
+
+.blue-charcoal {
+  color: $blue-charcoal;
+}
+
+.mantis {
+  color: $mantis;
+}
+
+.jungle-mist {
+  color: $jungle-mist;
+}
+
+.alice-blue {
+  color: $alice-blue;
+}

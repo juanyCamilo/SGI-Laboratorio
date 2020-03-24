@@ -1,0 +1,61 @@
+@import "src/scss/variables/colors";
+
+.navbar {
+    width: 100%;
+    background-color: $ming;
+    height: 70px;
+}
+
+.hyperlink-container {
+    height: 70px;
+    width: 60px;
+
+    &:hover {
+        background-color: $san-juan;
+        cursor: pointer;
+        & > span {
+            color: $hit-gray;
+        }
+    }
+}
+
+.flip-arrow {
+    transform: rotate(180deg);
+}
+
+.menu-container {
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    border-radius: 6px;
+    max-height: 1000px;
+    transition: max-height 2000ms ease-out;
+    overflow: hidden;
+}
+
+.menu-collapsed {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 500ms ease-out;
+}
+
+.menu-title {
+    background-color: $casal;
+    height: 70px;
+    border-radius: 6px 6px 0 0;
+    padding: 10px;
+}
+
+.row-button {
+    padding: 10px;
+
+    &:hover {
+        background-color: #55555549;
+
+        & > * {
+            color: #555555b7;
+        }
+    }
+}

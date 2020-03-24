@@ -1,0 +1,23 @@
+<nav class="navbar row space-around middle">
+    <div class="row middle">
+        <h1 class="jungle-mist poppins title">Laboratorio</h1>
+        <div class="row middle center m-left-3 hyperlink-container">
+            <span class="material-icons jungle-mist title"> home </span>
+        </div>
+    </div>
+    <div class="row middle relative">
+        <span class="material-icons jungle-mist title"> account_circle </span>
+        <span class="material-icons jungle-mist title hover" (click)="toggleMenu()" [ngClass]="{'flip-arrow': !menuCollapsed}"> keyboard_arrow_down </span>
+        <div class="menu-container" [ngClass]="{'menu-collapsed': menuCollapsed}">
+            <div class="menu-title row bottom">
+                <p class="bold alice-blue">Nombre usuario</p>
+            </div>
+            <div>
+                <button class="row middle width-100 row-button">
+                    <span class="material-icons"> exit_to_app </span>
+                    <p class="m-left-3">Salir</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
